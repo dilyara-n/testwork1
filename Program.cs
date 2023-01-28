@@ -7,7 +7,7 @@ int newLength = 0;
 for (int i = 0; i < arrLength; i++)
 {
     Console.Write($"введите {i}-й элемент массива: ");
-    array[i] = Convert.ToString(Console.ReadLine());
+    array[i] = Convert.ToString(Console.ReadLine());// warning
 
     if (array[i].Length < 4)
     {
